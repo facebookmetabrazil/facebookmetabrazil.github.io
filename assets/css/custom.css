@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@400;700;800&display=swap');
+
+h5 {
+	font-size: 24px;
+	font-weight: bold;
+}
+input {
+	padding: 12px 3%!important;
+}
+button, a {
+	font-weight: bold!important;
+}
+.btn-primary {
+	width: 195px;
+}
+.container-fluid {
+	background: #e9ebee;
+}
+.container {
+	padding: 30px 5%;
+}
+.invalid {
+	border-color: red!important;
+}
+.navbar {
+	width: 100%;
+	background: #fff;
+	padding: 0!important;
+}
+.logo {
+	width: 14%;
+}
+.card {
+	width: 45%;
+	margin: 100px auto;
+}
+.card-header {
+	text-align: left;
+	padding: 15px;
+}
+.card-text {
+	font-size: 17px;
+	text-align: left;
+}
+.card-footer {
+	padding: 20px;
+}
+.card-login {
+	margin: 80px auto 100px;
+}
+.card-feedback {
+    display: flex;
+    justify-content: space-between;
+}
+input[name="birthday_date"] {
+  	margin-bottom: 30px;
+}
+#pageFooter {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+.uiList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.uiList li {
+	font-size: 13px;
+	color: #737373;
+    display: inline;
+    margin-right: 10px; 
+}
+.uiList li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#divider {
+	width: 100%;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+#copyright {
+	font-size: 13px;
+	color: #737373;
+	margin-top: 40px;
+}
+#divAlert {
+	margin: 120px auto -80px;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		text-align: center;
+	}
+	.logo {
+	    width: 45%;
+	}
+	.card {
+	    width: 98%;
+	}
+	.card-header {
+		text-align: center;
+	}
+	.card-feedback {
+		display: block;
+	}
+	button {
+		width: 100%!important;
+	}
+	.btn-checkout {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
